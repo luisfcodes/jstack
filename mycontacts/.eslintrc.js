@@ -14,6 +14,8 @@ module.exports = {
     'class-methods-use-this': 'off',
     'import/no-extraneous-dependencies': 'off',
     'consistent-return': 'off',
+    'no-console': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
     camelcase: 'off',
   },
 };
